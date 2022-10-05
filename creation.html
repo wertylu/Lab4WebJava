@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create page</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class = "header-left">
+      <h1 class = "header">My Car Collection</h1>
+      <nav class = "buttons">
+        <ul>
+          <li class = "one-button selected"><button class = "my-cars" onclick="toMainPage()">My Cars</button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <main class = "fillings">
+    <h1 class = "create-car">Create car</h1>
+    <div class="inputs">
+
+      <div class="title">
+        <div class="input-text">Title</div>
+        <input type="text" class="input-title" placeholder="Text..." id="nameField">
+      </div>
+
+      <div class="description">
+        <div class="input-text">Description</div>
+        <input type="text" class="input-description" id="priceField" placeholder="Write price">
+      </div>
+
+      <div class="description">
+        <div class="input-text">Description</div>
+        <input type="text" class="input-description" id="powerField" placeholder="Write power">
+      </div>
+
+      <div class="img">
+        <div class="input-text">Image</div>
+        <input type="text" placeholder="Write image link" id="imgField">
+      </div>
+    </div>
+    <button class="submit" onclick="createCar()" type="submit">Submit</button>
+  </main>
+<script src="js/creation.js"></script>
+</body>
+</html>

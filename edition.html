@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <div class = "header-left">
+        <h1 class = "header">My Car Collection</h1>
+        <nav class = "buttons">
+            <ul>
+                <li class = "one-button selected"><button class = "my-cars" onclick="toMainPage()">My Cars</button></li>
+                <li class = "one-button"><button class = "edit-car" onclick="createCar()">Edit Car</button></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main>
+    <input type="text" placeholder="Set a name" id="nameField">
+    <input type="text" placeholder="Set a price" id="priceField">
+    <input type="text" placeholder="Set a power" id="powerField">
+    <input type="text" placeholder="Set image link" id="imgField">
+</main>
+<button onclick="updateCar()">Edit car</button>
+
+<script src="js/edition.js"></script>
+</body>
+</html>

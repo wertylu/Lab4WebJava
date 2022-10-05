@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 5</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="./js/index.js"></script>
+</head>
+
+<body>
+<div class ="first-page" id="my_cars">
+    <header>
+        <div class = "header-left">
+            <h1 class = "header">My Car Collection</h1>
+            <nav class = "buttons">
+                <ul>
+                    <li class = "one-button"><button class = "my-cars" onclick="toMainPage()">My Cars</button></li>
+                    <li class = "one-button"><button class = "edit-car" onclick="toCreatePage()">Create Car</button></li>
+                </ul>
+            </nav>
+        </div>
+        <div class = "search-panel">
+            <label for="find_input"></label><input type="text" placeholder="Search for a car..." class="search-input" id="find_input">
+            <div class = "search-buttons">
+                <button id="search" class = "search" onclick="searchCar()">Search</button>
+            </div>
+        </div>
+    </header>
+    <main class = "main">
+    <aside class = "aside">
+        <h1 class = "manage-cars">Manage Cars</h1>
+        <div class="sortCat">
+            <input type="checkbox" id="name" onclick="sortByName()">
+            <label for="name">name</label>
+        </div>
+        <div class="sortCat">
+            <input type="checkbox" id="price" onclick="sortByPrice()">
+            <label for="price">price</label>
+        </div>
+        <div class="divider"></div>
+        <div class="count">
+            <div class="count-results">
+                <div class="count-results" id="count_result">Total cars: 0 cars</div>
+            </div>
+        </div>
+    </aside>
+        <div class="cars">
+            <ul class = "ull" id="items_container">
+            </ul>
+        </div>
+    </main>
+</div>
+
+
+
+<script src="js/index.js"></script>
+</body>
+</html>

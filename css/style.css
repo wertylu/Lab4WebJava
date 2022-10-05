@@ -1,0 +1,231 @@
+/**{*/
+/*    border: blue 1px solid;*/
+/*}*/
+
+body{
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+    justify-content: space-between;
+    padding: 0 32px;
+    border-radius: 0 0 0.75rem 0.75rem;
+}
+
+.ull {
+    display: grid;
+    padding: 5vh 1vw;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 3vw;
+    grid-row-gap: 3vh;
+    margin-left: 0%;
+    width: 67%;
+}
+
+.first-page{
+
+}
+
+.header-left{
+    display: flex;
+}
+
+.header{
+
+}
+
+.buttons{
+
+}
+.hidden{
+    display:none;
+}
+.one-button{
+    display: flex;
+    padding: 1rem 1.25rem;
+}
+header ul{
+    display: flex;
+    align-items: center;
+}
+
+.my-cars{
+    border: 0;
+    background: none;
+    font-size: 18px;
+}
+
+.edit-car{
+    border: 0;
+    background: none;
+    font-size: 18px;
+}
+
+.search-panel{
+    display: flex;
+}
+
+.search-input{
+    margin-right: 10px;
+}
+
+.search-buttons{
+    display: flex;
+}
+
+.search{
+    margin-right: 10px;
+}
+
+.clear{
+
+}
+
+.main{
+    display: flex;
+    min-height: 89vh;
+}
+
+.aside{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    padding: 16px 23px 0 23px;
+    border-right: 2px solid darkgray;
+}
+
+.manage-cars{
+    font-size: 32px;
+    align-self: center;
+}
+
+.sort-div{
+    width: 90%;
+    align-self: center;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sort-text{
+    color: rgb(109, 109, 109);
+    width: 60%;
+}
+
+.sort-switch{
+    position: relative;
+    display: inline-block;
+    width: 64px;
+    height: 32px;
+}
+
+
+.divider{
+    width: 100%;
+    height: 2px;
+    background-color: darkgray;
+}
+
+.count{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.count-title{
+    width: 90%;
+    align-self: center;
+    color: rgb(109, 109, 109);
+}
+
+.count-button{
+    width: 30%;
+    padding: 8px 0;
+    align-self: center;
+}
+
+.count-results{
+    width: 90%;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.cars {
+    width: 100%;
+    padding: 1.5rem;
+}
+
+.cars ul {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+
+}
+
+.car-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 22.5%;
+    border: 0.125rem solid darkgray;
+}
+
+.car-card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0 0.5rem 0.5rem 0.5rem;
+}
+
+.car-card-image {
+    height: 10rem;
+    overflow: hidden;
+}
+
+.car-card-image img {
+    width: 100%;
+    opacity: 0.95;
+}
+
+.car-card-title {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.car-card-description {
+    color: rgb(109, 109, 109);
+    font-size: 0.8rem;
+}
+
+.car-card-price {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.car-card-price-text {
+    font-weight: 600;
+}
+
+.car-card-buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.car-card-edit {
+    width: 35%;
+    padding: 0.5rem 0;
+}
+
+.car-card-remove {
+    width: 35%;
+    padding: 0.5rem 0;
+}
+
